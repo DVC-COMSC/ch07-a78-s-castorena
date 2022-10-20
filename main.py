@@ -11,11 +11,9 @@ idxlst = []
 
 for i in range(len(words)):
     for j in range(len(are)):
-        if j == 0:
-            prev_idx = 0
-        else:
-            prev_idx = j-1
-    x = words[i].find(are[j])
+    
+     x = words[i].find(are[j])
+    
     if x > 0:
        idxlst.append(words[i])  
 
